@@ -35,7 +35,12 @@
         height="1" 
         depth="1" 
         material="src: #wood2"
-        shadow>  
+        shadow
+        
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
+        <a-sphere position="5 0 0" color="mediumseagreen"></a-sphere>
+</a-entity>     
+             >  
       </a-box>
       <a-plane id="ground"
         position="0 0 -4" 
