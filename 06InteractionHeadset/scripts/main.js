@@ -43,7 +43,7 @@ myOtherBox.addEventListener('mouseleave', function(){
  });
 
 
- var growspeed = -2.2;
+ var growspeed = 0.8;
 
  function grow(){
  	myOtherBox.object3D.scale.x *= growspeed;
